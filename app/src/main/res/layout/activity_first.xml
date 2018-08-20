@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Bit Camp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+
+        <Button
+            android:id="@+id/btnimage"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:onClick="move"
+            android:text="img"
+            android:textAlignment="center"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/btntwo"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:onClick="move"
+            android:text="two"
+            android:textAlignment="center"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/btnclose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="close"
+            android:textSize="7pt"
+            android:textAlignment="center"
+            android:onClick="move"
+            />
+        <Button
+            android:id="@+id/btnmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="msg"
+            android:textSize="7pt"
+            android:textAlignment="center"
+            android:onClick="move"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/oh1"
+
+        />
+
+
+</LinearLayout>
